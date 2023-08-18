@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>My title</title>
+</head>
+<body>
+	<form action="MyServlet">
+		Имя<input type="text" name="firstName">
+		Фамилия<input type="text" name="secondName">
+	</form>
+</body>
+</html>

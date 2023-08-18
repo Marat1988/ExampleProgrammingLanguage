@@ -1,0 +1,50 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+	pageEncoding="UTF-8"%>
+<%@page import="java.util.*" %>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	Hello from jsp
+	<br>
+	
+	<jsp:declaration>
+	String s2 = "gfgffg";
+	</jsp:declaration>>
+	
+	<%!
+	private int sum(int a, int b) {
+		return a + b;
+	}
+	String s = "hello2";
+	
+	%>
+
+
+	<%
+	int i = 1;
+	int j = 2;
+	out.println(i + j);
+	%>
+
+	<%
+	out.println("<br>");
+	out.println(sum(5, 4));
+	ut.println("<br>");
+	out.println(s2);
+	%>
+	<br>
+	
+	<%
+	out.println(s);
+	%>
+	<jsp:scriptlet>
+	out.println("jsp:scriptlet");
+	</jsp:scriptlet>
+	<br>
+	<%=Arrays.asList(1,2,3,4,5) %>
+</body>
+</html>

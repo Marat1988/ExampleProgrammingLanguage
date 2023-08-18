@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Form params in JSP</title>
+</head>
+<body>
+	<form method="GET" action="MyServlet">
+		<table>
+			<tr>
+				<td>Имя:</td>
+				<td><input type="text" name="firstName"></td>
+			</tr>
+			<tr>
+				<td>Фамилия:</td>
+				<td><input type="text" name="secondName"></td>
+			</tr>
+			<tr>
+				<td>Профессия:</td>
+				<td>
+					<select name="job">
+						<option value="Developer">Разработчик</option>
+						<option selected value="Tester">Тестировщик</option>
+						<option value="Analyst">Аналитик</option>
+					</select>
+					
+				</td>
+			</tr>
+			<tr>
+				<td>Пол:</td>
+				<td>
+					<input type="radio" name="gender" value="М">Мужчина</input><br>
+					<input type="radio" name="gender" value="Ж">Женщина</input>
+				</td>
+			</tr>
+			<tr>
+				<td>Старше 18 лет?</td>
+				<td>
+					<input type="checkbox" name="age18" value="Да">Да</input><br>
+				</td>
+			</tr>
+			<tr>
+				<td align="right" colspan="2"><input type="submit" value="Отправить"></td>
+			</tr>
+		</table>
+	</form>
+</body>
+</html>
