@@ -8,7 +8,7 @@
 
     <%@page import="com.example.servlet.models.Book" %>
 
-
+    <%--
 
     <%!
         int count = 0;
@@ -34,12 +34,30 @@
 
     <hr/>
 
-    <%
-        for (int i = 0; i < 10; i++) {
+    <% for (int i = 0; i < 10; i++) { %>
+            <p><%=i%></p>
+        <%}%>
 
-        }
+    <% if (2 > 5) {%>
+        <p>Yes</p>
+    <%} else { %>
+    <p>No</p>
+    <%}%>
+
+
+    <hr/>
+
+    --%>
+
+    <%
+        Book book2 = (Book) request.getAttribute("book");
+        out.print(book2.getTitle());
 
     %>
+
+
+
+
 
 </body>
 </html>
