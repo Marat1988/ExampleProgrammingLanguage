@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<web-app>
+  <display-name>ServletTutorial</display-name>
+
+  <servlet>
+    <servlet-name>HelloServlet</servlet-name>
+    <servlet-class>com.example.servlet.HelloServlet</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>HelloServlet</servlet-name>
+    <url-pattern>/hello</url-pattern>
+  </servlet-mapping>
+
+
+
+  <servlet>
+    <servlet-name>HelloJSP</servlet-name>
+    <servlet-class>org.apache.jasper.servlet.JspServlet</servlet-class>
+    <jsp-file>/jsps/index.jsp</jsp-file>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>HelloJSP</servlet-name>
+    <url-pattern>/myjsp</url-pattern>
+  </servlet-mapping>
+
+
+
+</web-app>
