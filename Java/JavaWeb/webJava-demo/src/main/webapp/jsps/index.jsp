@@ -5,8 +5,8 @@
     <p>Result 1 + 1 = ${1+1}</p>
     ${(1==1)?3:4}
     <hr/>
-
     <%@page import="com.example.servlet.models.Book" %>
+
 
     <%--
 
@@ -18,7 +18,6 @@
         }
     %>
 
-
     <%
         Book book = new Book("Harry Poter", 1);
     %>
@@ -26,7 +25,6 @@
     <%=book.getId()%>
     <%=book.getTitle()%>
     <hr/>
-
 
     <%=count%>
     <%=text%>
@@ -49,15 +47,21 @@
 
     --%>
 
+
+    <%--
+
     <%
         Book book2 = (Book) request.getAttribute("book");
         out.print(book2.getTitle());
 
     %>
 
+    --%>
+
+    <hr/>
 
 
-
+    <a href="/myjstl">to my jstl</a>
 
 </body>
 </html>

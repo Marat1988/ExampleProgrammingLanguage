@@ -7,12 +7,10 @@
     <servlet-name>HelloServlet</servlet-name>
     <servlet-class>com.example.servlet.HelloServlet</servlet-class>
   </servlet>
-
   <servlet-mapping>
     <servlet-name>HelloServlet</servlet-name>
     <url-pattern>/hello</url-pattern>
   </servlet-mapping>
-
 
 
   <servlet>
@@ -20,10 +18,20 @@
     <servlet-class>org.apache.jasper.servlet.JspServlet</servlet-class>
     <jsp-file>/jsps/index.jsp</jsp-file>
   </servlet>
-
   <servlet-mapping>
     <servlet-name>HelloJSP</servlet-name>
     <url-pattern>/myjsp</url-pattern>
+  </servlet-mapping>
+
+
+  <servlet>
+    <servlet-name>HelloJSTL</servlet-name>
+    <servlet-class>org.apache.jasper.servlet.JspServlet</servlet-class>
+    <jsp-file>/jsps/jstl.jsp</jsp-file>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>HelloJSTL</servlet-name>
+    <url-pattern>/myjstl</url-pattern>
   </servlet-mapping>
 
 
