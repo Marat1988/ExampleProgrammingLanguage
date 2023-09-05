@@ -11,10 +11,6 @@ public class ProductService {
     private List<Product> products = new ArrayList<>();
     private long ID = 0;
 
-    {
-        products.add(new Product(++ID, "PlayStation 5", "Simple description", 67000, "Krasnoyarsk", "Tom"));
-        products.add(new Product(++ID, "Iphone 8", "Simple description", 24000, "Moscow", "Artem"));
-    }
 
     public List<Product> listProducts() {
         return products;
