@@ -15,6 +15,10 @@ import java.util.List;
 public class ProductService {
     private final ProductRepository productRepository;
 
+<<<<<<< Updated upstream
+=======
+
+>>>>>>> Stashed changes
     public List<Product> listProducts(String title) {
         return (title != null) ? productRepository.findByTitle(title) : productRepository.findAll();
     }
