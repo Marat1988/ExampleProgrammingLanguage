@@ -1,0 +1,36 @@
+
+<web-app>
+  <display-name>Archetype Created Web Application</display-name>
+
+
+<!--  <servlet>-->
+<!--    <servlet-name>HelloServlet</servlet-name>-->
+<!--    <servlet-class>com.init.servlets.HelloServlet</servlet-class>-->
+<!--    <init-param>-->
+<!--      <param-name>version</param-name>-->
+<!--      <param-value>1.0.1MY</param-value>-->
+<!--    </init-param>-->
+<!--    <init-param>-->
+<!--      <param-name>port</param-name>-->
+<!--      <param-value>9090</param-value>-->
+<!--    </init-param>-->
+<!--    <init-param>-->
+<!--      <param-name>protocol</param-name>-->
+<!--      <param-value>HTTP</param-value>-->
+<!--    </init-param>-->
+<!--  </servlet>-->
+<!--  <servlet-mapping>-->
+<!--    <servlet-name>HelloServlet</servlet-name>-->
+<!--    <url-pattern>/hello</url-pattern>-->
+<!--  </servlet-mapping>-->
+
+
+  <servlet-mapping>
+    <servlet-name>default</servlet-name>
+    <url-pattern>/static/*</url-pattern>
+  </servlet-mapping>
+  <context-param>
+    <param-name>Name</param-name>
+    <param-value>Bob</param-value>
+  </context-param>
+</web-app>
