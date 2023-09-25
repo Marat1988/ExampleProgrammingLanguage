@@ -10,12 +10,15 @@
         android:id="@+id/editTextMessage"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
+        android:autofillHints=""
         android:ems="10"
-        android:inputType="text"
         android:hint="@string/hint_enter_message"
+        android:inputType="text"
+        android:minHeight="48dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="VisualLintTextFieldSize" />
 
     <Button
         android:id="@+id/buttonSend"
@@ -25,6 +28,7 @@
         android:onClick="onClickSendMessage"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextMessage" />
+        app:layout_constraintTop_toBottomOf="@+id/editTextMessage"
+        tools:ignore="VisualLintButtonSize" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
