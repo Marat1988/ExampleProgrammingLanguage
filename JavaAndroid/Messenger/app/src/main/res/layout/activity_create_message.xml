@@ -4,37 +4,27 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".CreateMessageActivity">
 
-
-    <Spinner
-        android:id="@+id/spinnerColors"
+    <EditText
+        android:id="@+id/editTextMessage"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_margin="8dp"
-        android:entries="@array/colors"
-        android:minHeight="48dp"
+        android:ems="10"
+        android:inputType="text"
+        android:hint="@string/hint_enter_message"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-        android:id="@+id/buttonFindDescription"
+        android:id="@+id/buttonSend"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_margin="8dp"
-        android:onClick="showDescription"
-        android:text="@string/button_find_description"
+        android:text="@string/button_send"
+        android:onClick="onClickSendMessage"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/spinnerColors" />
+        app:layout_constraintTop_toBottomOf="@+id/editTextMessage" />
 
-    <TextView
-        android:id="@+id/textViewDescriptionTemp"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:layout_margin="8dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/buttonFindDescription" />
 </androidx.constraintlayout.widget.ConstraintLayout>
