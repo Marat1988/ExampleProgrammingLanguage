@@ -1,33 +1,54 @@
 package com.example.buysell.models;
 
 import jakarta.persistence.*;
-import lombok.AllArgsConstructor;
-import lombok.Data;
-import lombok.NoArgsConstructor;
+import lombok.*;
 
+@Getter
 @Entity
 @Table(name = "images")
-@Data
-@AllArgsConstructor
-@NoArgsConstructor
 public class Image {
     @Id
-    @GeneratedValue(strategy = GenerationType.AUTO)
-    @Column(name = "id")
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
-    @Column(name = "name")
     private String name;
-    @Column(name = "originalName")
-    private String originalName;
-    @Column(name = "size")
+    private String originalFileName;
     private Long size;
-    @Column(name = "contentType")
     private String contentType;
-    @Column(name = "isPreviewImage")
-    private boolean isPreviewImage;
+    private boolean previewImage;
     @Lob
-    @Column(name = "bytes"/*, columnDefinition = "longblob"*/)
     private byte[] bytes;
     @ManyToOne(cascade = CascadeType.REFRESH, fetch = FetchType.EAGER)
     private Product product;
+
+    public void setId(Long id) {
+        this.id = id;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public void setOriginalFileName(String originalFileName) {
+        this.originalFileName = originalFileName;
+    }
+
+    public void setSize(Long size) {
+        this.size = size;
+    }
+
+    public void setContentType(String contentType) {
+        this.contentType = contentType;
+    }
+
+    public void setPreviewImage(boolean previewImage) {
+        this.previewImage = previewImage;
+    }
+
+    public void setBytes(byte[] bytes) {
+        this.bytes = bytes;
+    }
+
+    public void setProduct(Product product) {
+        this.product = product;
+    }
 }
