@@ -24,7 +24,7 @@ public class MainActivity extends AppCompatActivity {
     private EditText editTextCity;
     private TextView textViewWeather;
 
-    private final String WEATHER_URL = "https://api.openweathermap.org/data/2.5/weather?q=%s&appid=c25db547002770363eb44194f4bbbda7&lang=ru&units=metric";
+    private final String WEATHER_URL = "https://api.openweathermap.org/data/2.5/weather?q=%s&appid=123456789&lang=ru&units=metric";
 
 
     @Override
