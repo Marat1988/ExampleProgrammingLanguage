@@ -13,9 +13,19 @@ import java.util.ArrayList;
 public class NotesAdapter extends RecyclerView.Adapter<NotesAdapter.NotesViewHolder> {
 
     private ArrayList<Note> notes;
+    private OnNoteClickListener onNoteClickListener;
 
     public NotesAdapter(ArrayList<Note> notes) {
         this.notes = notes;
+    }
+
+    interface OnNoteClickListener {
+        void onNoteClick(int position);
+        void onLongClick(int position);
+    }
+
+    public void setOnNoteClickListener(OnNoteClickListener onNoteClickListener) {
+        this.onNoteClickListener = onNoteClickListener;
     }
 
     @NonNull
@@ -62,6 +72,23 @@ public class NotesAdapter extends RecyclerView.Adapter<NotesAdapter.NotesViewHol
             textViewTitle = itemView.findViewById(R.id.textViewTitle);
             textViewDescription = itemView.findViewById(R.id.textViewDescription);
             textViewDayOfWeek = itemView.findViewById(R.id.textViewDayOfWeek);
+            itemView.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View v) {
+                    if (onNoteClickListener != null) {
+                        onNoteClickListener.onNoteClick(getAdapterPosition());
+                    }
+                }
+            });
+            itemView.setOnLongClickListener(new View.OnLongClickListener() {
+                @Override
+                public boolean onLongClick(View v) {
+                    if (onNoteClickListener!=null){
+                        onNoteClickListener.onLongClick(getAdapterPosition());
+                    }
+                    return true;
+                }
+            });
         }
     }
 }
