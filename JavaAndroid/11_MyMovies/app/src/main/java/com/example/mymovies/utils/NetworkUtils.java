@@ -18,13 +18,14 @@ import java.util.concurrent.ExecutionException;
 public class NetworkUtils {
 
     private static final String BASE_URL = "https://api.themoviedb.org/3/discover/movie?";
+    public static final String BASE_POSTER_URL = "https://image.tmdb.org/t/p/";
 
     private static final String PARAMS_API_KEY = "api_key";
     private static final String PARAMS_LANGUAGE = "language";
     private static final String PARAMS_SORT_BY = "sort_by";
     private static final String PARAMS_PAGE = "page";
 
-    private static final String API_KEY = "48b137a958c6487b834b3b8f48b19cd4";
+    private static final String API_KEY = "h";
     private static final String LANGUAGE_VALUE = "ru-RU";
     private static final String SORT_BY_POPULARITY = "popularity.desc";
     private static final String SORT_BY_TOP_RATED = "vote_average.desc";
