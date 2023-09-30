@@ -23,8 +23,7 @@ public class NetworkUtils {
     private static final String PARAMS_LANGUAGE = "language";
     private static final String PARAMS_SORT_BY = "sort_by";
     private static final String PARAMS_PAGE = "page";
-
-    private static final String API_KEY = "3";
+    private static final String API_KEY = "5";
     private static final String LANGUAGE_VALUE = "ru-RU";
     private static final String SORT_BY_POPULARITY = "popularity.desc";
     private static final String SORT_BY_TOP_RATED = "vote_average.desc";
@@ -49,7 +48,7 @@ public class NetworkUtils {
         try {
             result = new URL(uri.toString());
         } catch (MalformedURLException e) {
-            throw new RuntimeException(e);
+            e.printStackTrace();
         }
         return result;
     }
@@ -60,9 +59,9 @@ public class NetworkUtils {
         try {
             result = new JSONLoadTask().execute(url).get();
         } catch (ExecutionException e) {
-            throw new RuntimeException(e);
+            e.printStackTrace();
         } catch (InterruptedException e) {
-            throw new RuntimeException(e);
+            e.printStackTrace();
         }
         return result;
     }
@@ -89,9 +88,9 @@ public class NetworkUtils {
                 }
                 result = new JSONObject(builder.toString());
             } catch (IOException e) {
-                throw new RuntimeException(e);
+                e.printStackTrace();
             } catch (JSONException e) {
-                throw new RuntimeException(e);
+                e.printStackTrace();
             } finally {
                 if (connection != null) {
                     connection.disconnect();
