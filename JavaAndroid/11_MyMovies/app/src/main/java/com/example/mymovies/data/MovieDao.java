@@ -12,16 +12,22 @@ import java.util.List;
 public interface MovieDao {
     @Query("SELECT * FROM movies")
     LiveData<List<Movie>> getAllMovies();
-
     @Query("SELECT * FROM movies WHERE id == :movieId")
     Movie getMovieById(int movieId);
-
     @Query("DELETE FROM movies")
     void deleteAllMovies();
-
     @Insert
     void insertMovie(Movie movie);
-
     @Delete
     void deleteMovie(Movie movie);
+
+    @Query("SELECT * FROM favourite_movies")
+    LiveData<List<FavouriteMovie>> getAllFavouriteMovies();
+    @Insert
+    void insertFavouriteMovie(FavouriteMovie movie);
+    @Delete
+    void deleteFavouriteMovie(FavouriteMovie movie);
+
+    @Query("SELECT * FROM favourite_movies WHERE id == :movieId")
+    FavouriteMovie getFavouriteMovieById(int movieId);
 }
