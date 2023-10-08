@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "816297862410",
+    "project_id": "fir-start-a95ad",
+    "storage_bucket": "fir-start-a95ad.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:816297862410:android:72a5a14648b0e8dd8906f3",
+        "android_client_info": {
+          "package_name": "com.example.firebasestart"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBQFCs-k36Xc894yIgjNlPs2Ou31-I6hVk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
