@@ -17,6 +17,7 @@ import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.Button;
 import android.widget.Toast;
 
 import com.example.notes.DB.NotesContract;
@@ -32,6 +33,7 @@ public class MainActivity extends AppCompatActivity {
     private final ArrayList<Note> notes = new ArrayList<>();
     private NotesAdapter adapter;
     private MainViewModel viewModel;
+    private Button button;
 
 
     @Override
@@ -40,6 +42,15 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         viewModel = ViewModelProviders.of(this).get(MainViewModel.class);
         ActionBar actionBar = getSupportActionBar();
+
+        button.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+            }
+        });
+
+
         if (actionBar != null) {
             actionBar.hide();
         }
