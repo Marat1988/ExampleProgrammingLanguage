@@ -1,3 +1,7 @@
 <resources>
-    <string name="app_name">chat app3</string>
+    <string name="app_name">Чат "В ТОПе"</string>
+    <string name="floating_button_send_image">Отправить изображение</string>
+    <string name="floating_button_send_message">Отправить сообщение</string>
+    <string name="hint_edit_text_message">Введите сообщение</string>
+    <string name="toast_info_message">Введите текст сообщения</string>
 </resources>

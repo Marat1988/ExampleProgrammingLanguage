@@ -6,40 +6,60 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-
-    <ImageView
-        android:id="@+id/imageViewSendMessage"
-        android:layout_width="30dp"
-        android:layout_height="30dp"
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/buttonSendMessage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/floating_button_send_message"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:srcCompat="@android:drawable/arrow_down_float" />
+        app:srcCompat="@android:drawable/stat_notify_chat" />
 
-    <EditText
-        android:id="@+id/editTextMessage"
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/layout"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:ems="10"
-        android:gravity="start|top"
-        android:inputType="textMultiLine"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/imageViewSendMessage"
-        app:layout_constraintStart_toEndOf="@+id/imageViewAddImage" />
+        app:layout_constraintEnd_toStartOf="@+id/buttonSendMessage"
+        app:layout_constraintStart_toEndOf="@+id/buttonSendImage">
 
-    <ImageView
-        android:id="@+id/imageViewAddImage"
-        android:layout_width="30dp"
-        android:layout_height="30dp"
+        <EditText
+            android:id="@+id/editTextMessage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:gravity="start|top"
+            android:hint="@string/hint_edit_text_message"
+            android:importantForAutofill="no"
+            android:inputType="textMultiLine" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/buttonSendImage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/floating_button_send_image"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:srcCompat="@android:drawable/btn_dialog" />
+        app:srcCompat="@android:drawable/ic_menu_gallery" />
+
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/recyclerViewMessages"
         android:layout_width="0dp"
         android:layout_height="0dp"
-        app:layout_constraintBottom_toTopOf="@+id/editTextMessage"
+        app:layout_constraintBottom_toTopOf="@+id/layout"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        android:scrollbars="vertical"
+        android:scrollbarStyle="insideOverlay"
+        android:scrollbarSize="10dp"
+        android:fadeScrollbars="true"
+        android:scrollbarAlwaysDrawVerticalTrack="true"
+        app:layout_constraintVertical_bias="0.0" />
 </androidx.constraintlayout.widget.ConstraintLayout>

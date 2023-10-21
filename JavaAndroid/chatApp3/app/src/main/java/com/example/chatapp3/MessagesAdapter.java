@@ -13,12 +13,19 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import com.squareup.picasso.Picasso;
 
+import java.text.SimpleDateFormat;
 import java.util.ArrayList;
+import java.util.Date;
+import java.util.GregorianCalendar;
 import java.util.List;
+import java.util.Locale;
 
 public class MessagesAdapter extends RecyclerView.Adapter<MessagesAdapter.MessagesViewHolder> {
     private static final int TYPE_MY_MESSAGE = 0;
     private static final int TYPE_OTHER_MESSAGE = 1;
+
+    private final GregorianCalendar calendar;
+    private final SimpleDateFormat sdf = new SimpleDateFormat("dd-MM-yyyy HH:mm:ss", Locale.US);
 
     private List<Message> messages;
     private Context context;
@@ -26,6 +33,7 @@ public class MessagesAdapter extends RecyclerView.Adapter<MessagesAdapter.Messag
     public MessagesAdapter(Context context) {
         messages = new ArrayList<>();
         this.context = context;
+        calendar = new GregorianCalendar();
     }
 
     public List<Message> getMessages() {
@@ -69,12 +77,14 @@ public class MessagesAdapter extends RecyclerView.Adapter<MessagesAdapter.Messag
         String author = message.getAuthor();
         String textOfMessage = message.getTextOfMessage();
         String urlToMessage = message.getImageUrl();
+
         if (urlToMessage == null || urlToMessage.isEmpty()) {
             holder.imageViewImage.setVisibility(View.GONE);
         } else {
             holder.imageViewImage.setVisibility(View.VISIBLE);
         }
-        holder.textViewAuthor.setText(author);
+        calendar.setTimeInMillis(message.getDate());
+        holder.textViewAuthor.setText(author + " ( " + sdf.format(calendar.getTime()) + " )");
         if (textOfMessage != null && !textOfMessage.isEmpty()) {
             holder.textViewTextOfMessage.setVisibility(View.VISIBLE);
             holder.textViewTextOfMessage.setText(textOfMessage);
@@ -95,7 +105,6 @@ public class MessagesAdapter extends RecyclerView.Adapter<MessagesAdapter.Messag
         private TextView textViewAuthor;
         private TextView textViewTextOfMessage;
         private ImageView imageViewImage;
-
 
         public MessagesViewHolder(@NonNull View itemView) {
             super(itemView);

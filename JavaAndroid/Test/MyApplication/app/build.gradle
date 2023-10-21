@@ -4,16 +4,15 @@ plugins {
 }
 
 android {
-    namespace 'com.example.chatapp3'
+    namespace 'com.example.myapplication'
     compileSdk 34
 
     defaultConfig {
-        applicationId "com.example.chatapp3"
-        minSdk 19
+        applicationId "com.example.myapplication"
+        minSdk 24
         targetSdk 34
         versionCode 1
         versionName "1.0"
-        resConfigs "en", "ru"
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
@@ -25,8 +24,8 @@ android {
         }
     }
     compileOptions {
-        sourceCompatibility JavaVersion.VERSION_17
-        targetCompatibility JavaVersion.VERSION_17
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
     }
 }
 
@@ -38,12 +37,9 @@ dependencies {
     testImplementation 'junit:junit:4.13.2'
     androidTestImplementation 'androidx.test.ext:junit:1.1.5'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.5.1'
-
-    implementation 'com.google.firebase:firebase-firestore:22.1.2'
-    implementation 'com.google.firebase:firebase-auth:22.2.0'
+    implementation platform('com.google.firebase:firebase-bom:32.3.1')
     implementation 'com.firebaseui:firebase-ui-auth:8.0.2'
-    implementation 'com.google.firebase:firebase-storage:20.3.0'
+    implementation("com.google.firebase:firebase-auth")
 
-    implementation 'com.squareup.picasso:picasso:2.8'
 
 }
