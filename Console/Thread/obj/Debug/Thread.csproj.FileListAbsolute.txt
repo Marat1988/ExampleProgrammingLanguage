@@ -1,0 +1,7 @@
+C:\Users\Mss.TRIBRATA\Documents\GitHub\ExampleProgrammingLanguage\Console\Thread\obj\Debug\Thread.csproj.AssemblyReference.cache
+C:\Users\Mss.TRIBRATA\Documents\GitHub\ExampleProgrammingLanguage\Console\Thread\obj\Debug\Thread.csproj.CoreCompileInputs.cache
+C:\Users\Mss.TRIBRATA\Documents\GitHub\ExampleProgrammingLanguage\Console\Thread\bin\Debug\ThreadTest.exe.config
+C:\Users\Mss.TRIBRATA\Documents\GitHub\ExampleProgrammingLanguage\Console\Thread\bin\Debug\ThreadTest.exe
+C:\Users\Mss.TRIBRATA\Documents\GitHub\ExampleProgrammingLanguage\Console\Thread\bin\Debug\ThreadTest.pdb
+C:\Users\Mss.TRIBRATA\Documents\GitHub\ExampleProgrammingLanguage\Console\Thread\obj\Debug\ThreadTest.exe
+C:\Users\Mss.TRIBRATA\Documents\GitHub\ExampleProgrammingLanguage\Console\Thread\obj\Debug\ThreadTest.pdb
