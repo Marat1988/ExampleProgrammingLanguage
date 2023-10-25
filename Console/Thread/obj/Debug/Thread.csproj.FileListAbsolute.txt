@@ -5,3 +5,8 @@ C:\Users\Mss.TRIBRATA\Documents\GitHub\ExampleProgrammingLanguage\Console\Thread
 C:\Users\Mss.TRIBRATA\Documents\GitHub\ExampleProgrammingLanguage\Console\Thread\bin\Debug\ThreadTest.pdb
 C:\Users\Mss.TRIBRATA\Documents\GitHub\ExampleProgrammingLanguage\Console\Thread\obj\Debug\ThreadTest.exe
 C:\Users\Mss.TRIBRATA\Documents\GitHub\ExampleProgrammingLanguage\Console\Thread\obj\Debug\ThreadTest.pdb
+C:\Users\Mss.TRIBRATA\Documents\GitHub\ExampleProgrammingLanguage\Console\Thread\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Mss.TRIBRATA\Documents\GitHub\ExampleProgrammingLanguage\Console\Thread\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\Mss.TRIBRATA\Documents\GitHub\ExampleProgrammingLanguage\Console\Thread\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\Mss.TRIBRATA\Documents\GitHub\ExampleProgrammingLanguage\Console\Thread\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\Mss.TRIBRATA\Documents\GitHub\ExampleProgrammingLanguage\Console\Thread\obj\Debug\Thread.csproj.CopyComplete

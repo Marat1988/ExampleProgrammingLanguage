@@ -15,7 +15,9 @@ namespace ThreadTets
         static Mutex mutexObj = new Mutex();
         static void Main(string[] args)
         {
-            Test3();
+            FactorialAsync(-4);
+            FactorialAsync(6);
+            Console.Read();
         }
 
         #region 81
@@ -515,7 +517,100 @@ namespace ThreadTets
             Thread.Sleep(5000);
         }
         #endregion
+        #region 95
+        /*public static void Factorial()
+        {
+            int result = 1;
+            for (int i = 1; i <= 6; i++)
+            {
+                result *= i;
+            }
+            Thread.Sleep(3000);
+            Console.WriteLine($"Факториал равен: {result}");
+        }
+        public static async void FactorialAsync()
+        {
+            Console.WriteLine("Начало FactorialAsync");
+            await Task.Run(() => Factorial());
+            Console.WriteLine("Конец FactorialAsync");
+        }*/
+        #endregion
+        #region 96
+        /*public static int Factorial(int n)
+        {
+            int result = 1;
+            for (int i = 1; i <= n; i++)
+            {
+                result *= i;
+            }
+            return result;
+        }
+        static async Task<int> FactorialAsync(int n)
+        {
+            return await Task.Run(() => Factorial(n));
+        }*/
 
+        /*static int Factorial(int n)
+        {
+            int result = 1;
+            for (int i = 1; i <= n; i++)
+            {
+                result *= i;
+            }
+            return result;
+        }
+        static async ValueTask<int> FactorialAsync(int n)
+        {
+            return await Task.Run(() => Factorial(n));
+        }*/
+        /*static void Factorial(int n)
+        {
+            int result = 1;
+            for (int i = 1; i <= n; i++)
+            {
+                result *= i;
+            }
+            Console.WriteLine($"Факториал числа {n} равен {result}");
+        }
+        static async void FactorialAsync()
+        {
+            await Task.Run(() => Factorial(4));
+            await Task.Run(() => Factorial(3));
+            await Task.Run(() => Factorial(5));
+        }
+
+        static async void FactorialAsync2()
+        {
+            Task t1 = Task.Run(() => Factorial(4));
+            Task t2 = Task.Run(() => Factorial(3));
+            Task t3 = Task.Run(() => Factorial(5));
+            await Task.WhenAll(new[] { t1, t2, t3 });
+        }*/
+        #endregion
+        #region 97
+        /*static void Factorial(int n)
+        {
+            if (n < 1)
+                throw new Exception($"{n} : число не должно быть меньше 1");
+            int result = 1;
+            for (int i = 1; i <= n; i++)
+            {
+                result *= i;
+            }
+            Console.WriteLine($"Факториал числа {n} равен {result}");
+        }
+        static async void FactorialAsync(int n)
+        {
+            try
+            {
+                await Task.Run(() => Factorial(n));
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.Message);
+            }
+        }*/
+        #endregion
     }
 
 }
