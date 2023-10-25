@@ -1,0 +1,13 @@
+﻿@using AsynsDemo.Domain;
+@model IEnumerable<Book>
+
+
+<div>
+    @foreach(Book book in Model)
+            {
+                <div>
+                    @($"Id = {book.Id}, Title = {book.Title}")
+                </div>
+            }
+
+</div>
