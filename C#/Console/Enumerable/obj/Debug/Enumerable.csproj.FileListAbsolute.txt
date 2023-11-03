@@ -1,0 +1,7 @@
+C:\Users\HP\Documents\GitHub\ExampleProgrammingLanguage\C#\Console\Enumerable\bin\Debug\Enumerable.exe.config
+C:\Users\HP\Documents\GitHub\ExampleProgrammingLanguage\C#\Console\Enumerable\bin\Debug\Enumerable.exe
+C:\Users\HP\Documents\GitHub\ExampleProgrammingLanguage\C#\Console\Enumerable\bin\Debug\Enumerable.pdb
+C:\Users\HP\Documents\GitHub\ExampleProgrammingLanguage\C#\Console\Enumerable\obj\Debug\Enumerable.csproj.AssemblyReference.cache
+C:\Users\HP\Documents\GitHub\ExampleProgrammingLanguage\C#\Console\Enumerable\obj\Debug\Enumerable.csproj.CoreCompileInputs.cache
+C:\Users\HP\Documents\GitHub\ExampleProgrammingLanguage\C#\Console\Enumerable\obj\Debug\Enumerable.exe
+C:\Users\HP\Documents\GitHub\ExampleProgrammingLanguage\C#\Console\Enumerable\obj\Debug\Enumerable.pdb
