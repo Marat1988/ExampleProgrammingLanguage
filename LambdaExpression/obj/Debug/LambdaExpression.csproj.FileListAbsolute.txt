@@ -1,0 +1,10 @@
+C:\Users\Mss.TRIBRATA\Documents\GitHub\ExampleProgrammingLanguage\LambdaExpression\bin\Debug\LambdaExpression.exe.config
+C:\Users\Mss.TRIBRATA\Documents\GitHub\ExampleProgrammingLanguage\LambdaExpression\bin\Debug\LambdaExpression.exe
+C:\Users\Mss.TRIBRATA\Documents\GitHub\ExampleProgrammingLanguage\LambdaExpression\bin\Debug\LambdaExpression.pdb
+C:\Users\Mss.TRIBRATA\Documents\GitHub\ExampleProgrammingLanguage\LambdaExpression\obj\Debug\LambdaExpression.csproj.AssemblyReference.cache
+C:\Users\Mss.TRIBRATA\Documents\GitHub\ExampleProgrammingLanguage\LambdaExpression\obj\Debug\LambdaExpression.Form1.resources
+C:\Users\Mss.TRIBRATA\Documents\GitHub\ExampleProgrammingLanguage\LambdaExpression\obj\Debug\LambdaExpression.Properties.Resources.resources
+C:\Users\Mss.TRIBRATA\Documents\GitHub\ExampleProgrammingLanguage\LambdaExpression\obj\Debug\LambdaExpression.csproj.GenerateResource.cache
+C:\Users\Mss.TRIBRATA\Documents\GitHub\ExampleProgrammingLanguage\LambdaExpression\obj\Debug\LambdaExpression.csproj.CoreCompileInputs.cache
+C:\Users\Mss.TRIBRATA\Documents\GitHub\ExampleProgrammingLanguage\LambdaExpression\obj\Debug\LambdaExpression.exe
+C:\Users\Mss.TRIBRATA\Documents\GitHub\ExampleProgrammingLanguage\LambdaExpression\obj\Debug\LambdaExpression.pdb
