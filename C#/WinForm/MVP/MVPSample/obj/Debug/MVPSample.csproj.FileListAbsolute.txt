@@ -1,0 +1,10 @@
+C:\Users\Mss.TRIBRATA\Documents\GitHub\ExampleProgrammingLanguage\MVP\MVPSample\bin\Debug\MVPSample.exe.config
+C:\Users\Mss.TRIBRATA\Documents\GitHub\ExampleProgrammingLanguage\MVP\MVPSample\bin\Debug\MVPSample.exe
+C:\Users\Mss.TRIBRATA\Documents\GitHub\ExampleProgrammingLanguage\MVP\MVPSample\bin\Debug\MVPSample.pdb
+C:\Users\Mss.TRIBRATA\Documents\GitHub\ExampleProgrammingLanguage\MVP\MVPSample\obj\Debug\MVPSample.csproj.AssemblyReference.cache
+C:\Users\Mss.TRIBRATA\Documents\GitHub\ExampleProgrammingLanguage\MVP\MVPSample\obj\Debug\MVPSample.Form1.resources
+C:\Users\Mss.TRIBRATA\Documents\GitHub\ExampleProgrammingLanguage\MVP\MVPSample\obj\Debug\MVPSample.Properties.Resources.resources
+C:\Users\Mss.TRIBRATA\Documents\GitHub\ExampleProgrammingLanguage\MVP\MVPSample\obj\Debug\MVPSample.csproj.GenerateResource.cache
+C:\Users\Mss.TRIBRATA\Documents\GitHub\ExampleProgrammingLanguage\MVP\MVPSample\obj\Debug\MVPSample.csproj.CoreCompileInputs.cache
+C:\Users\Mss.TRIBRATA\Documents\GitHub\ExampleProgrammingLanguage\MVP\MVPSample\obj\Debug\MVPSample.exe
+C:\Users\Mss.TRIBRATA\Documents\GitHub\ExampleProgrammingLanguage\MVP\MVPSample\obj\Debug\MVPSample.pdb

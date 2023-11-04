@@ -1,0 +1,7 @@
+C:\Users\Mss.TRIBRATA\Documents\GitHub\ExampleProgrammingLanguage\Console\DelegateEvent\bin\Debug\DelegateEvent.exe.config
+C:\Users\Mss.TRIBRATA\Documents\GitHub\ExampleProgrammingLanguage\Console\DelegateEvent\bin\Debug\DelegateEvent.exe
+C:\Users\Mss.TRIBRATA\Documents\GitHub\ExampleProgrammingLanguage\Console\DelegateEvent\bin\Debug\DelegateEvent.pdb
+C:\Users\Mss.TRIBRATA\Documents\GitHub\ExampleProgrammingLanguage\Console\DelegateEvent\obj\Debug\DelegateEvent.csproj.AssemblyReference.cache
+C:\Users\Mss.TRIBRATA\Documents\GitHub\ExampleProgrammingLanguage\Console\DelegateEvent\obj\Debug\DelegateEvent.csproj.CoreCompileInputs.cache
+C:\Users\Mss.TRIBRATA\Documents\GitHub\ExampleProgrammingLanguage\Console\DelegateEvent\obj\Debug\DelegateEvent.exe
+C:\Users\Mss.TRIBRATA\Documents\GitHub\ExampleProgrammingLanguage\Console\DelegateEvent\obj\Debug\DelegateEvent.pdb
