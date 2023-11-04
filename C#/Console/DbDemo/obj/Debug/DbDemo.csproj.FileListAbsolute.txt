@@ -1,0 +1,7 @@
+C:\Users\HP\Documents\GitHub\ExampleProgrammingLanguage\C#\Console\DbDemo\bin\Debug\DbDemo.exe.config
+C:\Users\HP\Documents\GitHub\ExampleProgrammingLanguage\C#\Console\DbDemo\bin\Debug\DbDemo.exe
+C:\Users\HP\Documents\GitHub\ExampleProgrammingLanguage\C#\Console\DbDemo\bin\Debug\DbDemo.pdb
+C:\Users\HP\Documents\GitHub\ExampleProgrammingLanguage\C#\Console\DbDemo\obj\Debug\DbDemo.csproj.AssemblyReference.cache
+C:\Users\HP\Documents\GitHub\ExampleProgrammingLanguage\C#\Console\DbDemo\obj\Debug\DbDemo.csproj.CoreCompileInputs.cache
+C:\Users\HP\Documents\GitHub\ExampleProgrammingLanguage\C#\Console\DbDemo\obj\Debug\DbDemo.exe
+C:\Users\HP\Documents\GitHub\ExampleProgrammingLanguage\C#\Console\DbDemo\obj\Debug\DbDemo.pdb
