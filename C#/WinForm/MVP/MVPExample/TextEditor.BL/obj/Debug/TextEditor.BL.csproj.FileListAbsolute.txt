@@ -1,0 +1,5 @@
+C:\Users\Mss.TRIBRATA\Documents\GitHub\ExampleProgrammingLanguage\C#\WinForm\MVP\MVPExample\TextEditor.BL\bin\Debug\TextEditor.BL.dll
+C:\Users\Mss.TRIBRATA\Documents\GitHub\ExampleProgrammingLanguage\C#\WinForm\MVP\MVPExample\TextEditor.BL\bin\Debug\TextEditor.BL.pdb
+C:\Users\Mss.TRIBRATA\Documents\GitHub\ExampleProgrammingLanguage\C#\WinForm\MVP\MVPExample\TextEditor.BL\obj\Debug\TextEditor.BL.csproj.CoreCompileInputs.cache
+C:\Users\Mss.TRIBRATA\Documents\GitHub\ExampleProgrammingLanguage\C#\WinForm\MVP\MVPExample\TextEditor.BL\obj\Debug\TextEditor.BL.dll
+C:\Users\Mss.TRIBRATA\Documents\GitHub\ExampleProgrammingLanguage\C#\WinForm\MVP\MVPExample\TextEditor.BL\obj\Debug\TextEditor.BL.pdb

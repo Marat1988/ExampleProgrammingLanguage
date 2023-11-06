@@ -1,0 +1,13 @@
+C:\Users\Mss.TRIBRATA\Documents\GitHub\ExampleProgrammingLanguage\C#\WinForm\MVP\MVPExample\bin\Debug\MVPExample.exe.config
+C:\Users\Mss.TRIBRATA\Documents\GitHub\ExampleProgrammingLanguage\C#\WinForm\MVP\MVPExample\bin\Debug\MVPExample.exe
+C:\Users\Mss.TRIBRATA\Documents\GitHub\ExampleProgrammingLanguage\C#\WinForm\MVP\MVPExample\bin\Debug\MVPExample.pdb
+C:\Users\Mss.TRIBRATA\Documents\GitHub\ExampleProgrammingLanguage\C#\WinForm\MVP\MVPExample\bin\Debug\TextEditor.BL.dll
+C:\Users\Mss.TRIBRATA\Documents\GitHub\ExampleProgrammingLanguage\C#\WinForm\MVP\MVPExample\bin\Debug\TextEditor.BL.pdb
+C:\Users\Mss.TRIBRATA\Documents\GitHub\ExampleProgrammingLanguage\C#\WinForm\MVP\MVPExample\obj\Debug\MVPExample.csproj.AssemblyReference.cache
+C:\Users\Mss.TRIBRATA\Documents\GitHub\ExampleProgrammingLanguage\C#\WinForm\MVP\MVPExample\obj\Debug\MVPExample.Properties.Resources.resources
+C:\Users\Mss.TRIBRATA\Documents\GitHub\ExampleProgrammingLanguage\C#\WinForm\MVP\MVPExample\obj\Debug\MVPExample.csproj.GenerateResource.cache
+C:\Users\Mss.TRIBRATA\Documents\GitHub\ExampleProgrammingLanguage\C#\WinForm\MVP\MVPExample\obj\Debug\MVPExample.csproj.CoreCompileInputs.cache
+C:\Users\Mss.TRIBRATA\Documents\GitHub\ExampleProgrammingLanguage\C#\WinForm\MVP\MVPExample\obj\Debug\MVPExample.csproj.CopyComplete
+C:\Users\Mss.TRIBRATA\Documents\GitHub\ExampleProgrammingLanguage\C#\WinForm\MVP\MVPExample\obj\Debug\MVPExample.exe
+C:\Users\Mss.TRIBRATA\Documents\GitHub\ExampleProgrammingLanguage\C#\WinForm\MVP\MVPExample\obj\Debug\MVPExample.pdb
+C:\Users\Mss.TRIBRATA\Documents\GitHub\ExampleProgrammingLanguage\C#\WinForm\MVP\MVPExample\obj\Debug\MVPExample.MainForm.resources
