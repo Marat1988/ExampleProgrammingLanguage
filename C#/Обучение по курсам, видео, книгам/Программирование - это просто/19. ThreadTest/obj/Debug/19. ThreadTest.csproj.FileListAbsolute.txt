@@ -1,0 +1,10 @@
+C:\Users\Mss.TRIBRATA\Documents\GitHub\ExampleProgrammingLanguage\C#\Обучение по курсам, видео, книгам\Программирование - это просто\19. ThreadTest\obj\Debug\19. ThreadTest.csproj.AssemblyReference.cache
+C:\Users\Mss.TRIBRATA\Documents\GitHub\ExampleProgrammingLanguage\C#\Обучение по курсам, видео, книгам\Программирование - это просто\19. ThreadTest\obj\Debug\_19.ThreadTest.Form1.resources
+C:\Users\Mss.TRIBRATA\Documents\GitHub\ExampleProgrammingLanguage\C#\Обучение по курсам, видео, книгам\Программирование - это просто\19. ThreadTest\obj\Debug\_19.ThreadTest.Properties.Resources.resources
+C:\Users\Mss.TRIBRATA\Documents\GitHub\ExampleProgrammingLanguage\C#\Обучение по курсам, видео, книгам\Программирование - это просто\19. ThreadTest\obj\Debug\19. ThreadTest.csproj.GenerateResource.cache
+C:\Users\Mss.TRIBRATA\Documents\GitHub\ExampleProgrammingLanguage\C#\Обучение по курсам, видео, книгам\Программирование - это просто\19. ThreadTest\obj\Debug\19. ThreadTest.csproj.CoreCompileInputs.cache
+C:\Users\Mss.TRIBRATA\Documents\GitHub\ExampleProgrammingLanguage\C#\Обучение по курсам, видео, книгам\Программирование - это просто\19. ThreadTest\bin\Debug\_19.ThreadTest.exe.config
+C:\Users\Mss.TRIBRATA\Documents\GitHub\ExampleProgrammingLanguage\C#\Обучение по курсам, видео, книгам\Программирование - это просто\19. ThreadTest\bin\Debug\_19.ThreadTest.exe
+C:\Users\Mss.TRIBRATA\Documents\GitHub\ExampleProgrammingLanguage\C#\Обучение по курсам, видео, книгам\Программирование - это просто\19. ThreadTest\bin\Debug\_19.ThreadTest.pdb
+C:\Users\Mss.TRIBRATA\Documents\GitHub\ExampleProgrammingLanguage\C#\Обучение по курсам, видео, книгам\Программирование - это просто\19. ThreadTest\obj\Debug\_19.ThreadTest.exe
+C:\Users\Mss.TRIBRATA\Documents\GitHub\ExampleProgrammingLanguage\C#\Обучение по курсам, видео, книгам\Программирование - это просто\19. ThreadTest\obj\Debug\_19.ThreadTest.pdb
