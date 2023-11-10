@@ -1,0 +1,7 @@
+C:\Users\HP\Documents\GitHub\ExampleProgrammingLanguage\C#\Обучение по курсам, видео, книгам\Программирование - это просто\20. ThreadTest\ConsoleApp2\bin\Debug\ConsoleApp2.exe.config
+C:\Users\HP\Documents\GitHub\ExampleProgrammingLanguage\C#\Обучение по курсам, видео, книгам\Программирование - это просто\20. ThreadTest\ConsoleApp2\bin\Debug\ConsoleApp2.exe
+C:\Users\HP\Documents\GitHub\ExampleProgrammingLanguage\C#\Обучение по курсам, видео, книгам\Программирование - это просто\20. ThreadTest\ConsoleApp2\bin\Debug\ConsoleApp2.pdb
+C:\Users\HP\Documents\GitHub\ExampleProgrammingLanguage\C#\Обучение по курсам, видео, книгам\Программирование - это просто\20. ThreadTest\ConsoleApp2\obj\Debug\ConsoleApp2.csproj.AssemblyReference.cache
+C:\Users\HP\Documents\GitHub\ExampleProgrammingLanguage\C#\Обучение по курсам, видео, книгам\Программирование - это просто\20. ThreadTest\ConsoleApp2\obj\Debug\ConsoleApp2.csproj.CoreCompileInputs.cache
+C:\Users\HP\Documents\GitHub\ExampleProgrammingLanguage\C#\Обучение по курсам, видео, книгам\Программирование - это просто\20. ThreadTest\ConsoleApp2\obj\Debug\ConsoleApp2.exe
+C:\Users\HP\Documents\GitHub\ExampleProgrammingLanguage\C#\Обучение по курсам, видео, книгам\Программирование - это просто\20. ThreadTest\ConsoleApp2\obj\Debug\ConsoleApp2.pdb
