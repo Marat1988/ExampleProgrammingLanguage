@@ -1,0 +1,10 @@
+C:\Users\Mss.TRIBRATA\Documents\GitHub\ExampleProgrammingLanguage\C#\Обучение по курсам, видео, книгам\Программирование - это просто\20. ThreadTest\WinForm\obj\Debug\WinForm.csproj.AssemblyReference.cache
+C:\Users\Mss.TRIBRATA\Documents\GitHub\ExampleProgrammingLanguage\C#\Обучение по курсам, видео, книгам\Программирование - это просто\20. ThreadTest\WinForm\obj\Debug\WinForm.FormMain.resources
+C:\Users\Mss.TRIBRATA\Documents\GitHub\ExampleProgrammingLanguage\C#\Обучение по курсам, видео, книгам\Программирование - это просто\20. ThreadTest\WinForm\obj\Debug\WinForm.Properties.Resources.resources
+C:\Users\Mss.TRIBRATA\Documents\GitHub\ExampleProgrammingLanguage\C#\Обучение по курсам, видео, книгам\Программирование - это просто\20. ThreadTest\WinForm\obj\Debug\WinForm.csproj.GenerateResource.cache
+C:\Users\Mss.TRIBRATA\Documents\GitHub\ExampleProgrammingLanguage\C#\Обучение по курсам, видео, книгам\Программирование - это просто\20. ThreadTest\WinForm\obj\Debug\WinForm.csproj.CoreCompileInputs.cache
+C:\Users\Mss.TRIBRATA\Documents\GitHub\ExampleProgrammingLanguage\C#\Обучение по курсам, видео, книгам\Программирование - это просто\20. ThreadTest\WinForm\bin\Debug\WinForm.exe.config
+C:\Users\Mss.TRIBRATA\Documents\GitHub\ExampleProgrammingLanguage\C#\Обучение по курсам, видео, книгам\Программирование - это просто\20. ThreadTest\WinForm\bin\Debug\WinForm.exe
+C:\Users\Mss.TRIBRATA\Documents\GitHub\ExampleProgrammingLanguage\C#\Обучение по курсам, видео, книгам\Программирование - это просто\20. ThreadTest\WinForm\bin\Debug\WinForm.pdb
+C:\Users\Mss.TRIBRATA\Documents\GitHub\ExampleProgrammingLanguage\C#\Обучение по курсам, видео, книгам\Программирование - это просто\20. ThreadTest\WinForm\obj\Debug\WinForm.exe
+C:\Users\Mss.TRIBRATA\Documents\GitHub\ExampleProgrammingLanguage\C#\Обучение по курсам, видео, книгам\Программирование - это просто\20. ThreadTest\WinForm\obj\Debug\WinForm.pdb
