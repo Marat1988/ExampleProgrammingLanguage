@@ -1,0 +1,46 @@
+﻿CREATE DATABASE Library;
+GO
+
+USE Library;
+GO
+
+CREATE TABLE Author
+(
+	Id INT NOT NULL IDENTITY(1,1),
+	FirstName VARCHAR(100) NOT NULL,
+	LastName VARCHAR(100) NOT NULL
+	CONSTRAINT PK_Author_Id PRIMARY KEY(Id),
+	CONSTRAINT CK_Author_FirstName CHECK (FirstName<>''),
+	CONSTRAINT CK_Author_LastName CHECK (LastName<>'')
+);
+GO
+
+CREATE TABLE Publisher
+(
+	Id INT NOT NULL IDENTITY(1,1),
+	PublisherName VARCHAR(100) NOT NULL,
+	Address VARCHAR(100) NOT NULL,
+	CONSTRAINT PK_Publisher_Id PRIMARY KEY (Id),
+	CONSTRAINT CK_Publisher_PublisherName CHECK (PublisherName<>''),
+	CONSTRAINT CK_Publisher_Address CHECK (Address<>'')
+);
+GO
+
+CREATE TABLE Book
+(
+	Id INT NOT NULL IDENTITY(1,1),
+	Title VARCHAR(100) NOT NULL,
+	IdAuthor INT NOT NULL,
+	Pages INT NOT NULL,
+	Price INT NOT NULL,
+	IdPublisher INT NOT NULL,
+	CONSTRAINT PK_Book_Id PRIMARY KEY (Id),
+	CONSTRAINT CK_Book_Pages CHECK (Pages>0),
+	CONSTRAINT CK_Book_Price CHECK (Price>0)
+);
+GO
+
+ALTER TABLE Book
+ADD CONSTRAINT FK_IdAuthor FOREIGN KEY (IdAuthor) REFERENCES Author(Id),
+	CONSTRAINT FK_IdPublisher FOREIGN KEY (IdPublisher) REFERENCES Publisher(Id);
+

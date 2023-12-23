@@ -1,0 +1,12 @@
+C:\Users\HP\Documents\GitHub\ExampleProgrammingLanguage\C#\EntityFramework\LibraryDbFirst\bin\Debug\LibraryDbFirst.exe.config
+C:\Users\HP\Documents\GitHub\ExampleProgrammingLanguage\C#\EntityFramework\LibraryDbFirst\bin\Debug\LibraryDbFirst.exe
+C:\Users\HP\Documents\GitHub\ExampleProgrammingLanguage\C#\EntityFramework\LibraryDbFirst\bin\Debug\LibraryDbFirst.pdb
+C:\Users\HP\Documents\GitHub\ExampleProgrammingLanguage\C#\EntityFramework\LibraryDbFirst\bin\Debug\EntityFramework.dll
+C:\Users\HP\Documents\GitHub\ExampleProgrammingLanguage\C#\EntityFramework\LibraryDbFirst\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\HP\Documents\GitHub\ExampleProgrammingLanguage\C#\EntityFramework\LibraryDbFirst\bin\Debug\EntityFramework.xml
+C:\Users\HP\Documents\GitHub\ExampleProgrammingLanguage\C#\EntityFramework\LibraryDbFirst\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\HP\Documents\GitHub\ExampleProgrammingLanguage\C#\EntityFramework\LibraryDbFirst\obj\Debug\LibraryDbFirst.csproj.AssemblyReference.cache
+C:\Users\HP\Documents\GitHub\ExampleProgrammingLanguage\C#\EntityFramework\LibraryDbFirst\obj\Debug\LibraryDbFirst.csproj.CoreCompileInputs.cache
+C:\Users\HP\Documents\GitHub\ExampleProgrammingLanguage\C#\EntityFramework\LibraryDbFirst\obj\Debug\LibraryDbFirst.csproj.CopyComplete
+C:\Users\HP\Documents\GitHub\ExampleProgrammingLanguage\C#\EntityFramework\LibraryDbFirst\obj\Debug\LibraryDbFirst.exe
+C:\Users\HP\Documents\GitHub\ExampleProgrammingLanguage\C#\EntityFramework\LibraryDbFirst\obj\Debug\LibraryDbFirst.pdb
