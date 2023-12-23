@@ -40,7 +40,7 @@ namespace _19.ThreadTest
             this.progressBar1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.progressBar1.Location = new System.Drawing.Point(9, 36);
-            this.progressBar1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.progressBar1.Margin = new System.Windows.Forms.Padding(2);
             this.progressBar1.Name = "progressBar1";
             this.progressBar1.Size = new System.Drawing.Size(548, 19);
             this.progressBar1.TabIndex = 0;
@@ -49,7 +49,7 @@ namespace _19.ThreadTest
             // 
             this.butStart.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.butStart.Location = new System.Drawing.Point(398, 68);
-            this.butStart.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.butStart.Margin = new System.Windows.Forms.Padding(2);
             this.butStart.Name = "butStart";
             this.butStart.Size = new System.Drawing.Size(67, 30);
             this.butStart.TabIndex = 1;
@@ -60,7 +60,7 @@ namespace _19.ThreadTest
             // 
             this.butStop.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.butStop.Location = new System.Drawing.Point(490, 68);
-            this.butStop.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.butStop.Margin = new System.Windows.Forms.Padding(2);
             this.butStop.Name = "butStop";
             this.butStop.Size = new System.Drawing.Size(67, 30);
             this.butStop.TabIndex = 2;
@@ -84,7 +84,7 @@ namespace _19.ThreadTest
             this.Controls.Add(this.butStop);
             this.Controls.Add(this.butStart);
             this.Controls.Add(this.progressBar1);
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "Form1";
             this.Text = "Главная форма";
             this.ResumeLayout(false);
