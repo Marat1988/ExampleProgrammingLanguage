@@ -13,10 +13,114 @@ namespace LibraryDbFirst
             //Author author = new Author{FirstName = "Issac", LastName = "Azimov"};
             //AddAuthor(author);
             //GetAllAuthors();
-           // Init();
-            GetAllBooks();
+            // Init();
+            //GetAllBooks();
+            //GetAuthors();
+            AddAuthor_2(new Author
+            {
+                FirstName = "Maxim",
+                LastName = "Ponomarev",
+
+            });
             Console.ReadLine();
         }
+
+        static void Test1()
+        {
+            using(LibraryEntities db = new LibraryEntities())
+            {
+                Author author = new Author { FirstName = "Ray", LastName = "Bradbury" };
+                var authorEntry = db.Entry<Author>(author); //получаем объект DbEntityEntry для созданной сущности author, чтобы посмотреть на состояние author
+                Console.WriteLine(authorEntry.State);
+                //EntityState.Detached
+            }
+        }
+
+        static void Test2()
+        {
+            using(LibraryEntities db = new LibraryEntities())
+            {
+                Author author = db.Author.Find(1); //Находим автора с Id=1
+                db.Author.Remove(author); //помечаем на удаление автора c Id=1
+                db.SaveChanges(); //удаляем автора с Id=1 и выставляем его состояние в Detached
+            }
+        }
+
+        static void Test3()
+        {
+            using (LibraryEntities db = new LibraryEntities())
+            {
+                Author author = db.Author.Find(1); //находим автора с Id=1
+                db.Entry(author).State = System.Data.Entity.EntityState.Deleted;
+                db.SaveChanges(); //удадаем автора с Id=1 и выставляем его стостояние в Detached
+            }
+        }
+
+        static void Test4()
+        {
+            //Создаем сущность, соответствующую существующей записи в БД
+            Author author = new Author { Id = 4, FirstName = "Ray", LastName = "Bradbury" };
+            using(LibraryEntities db = new LibraryEntities())
+            {
+                db.Author.Attach(author); //Присоединяем сущность к контексту БД, ее состояние есть Detached
+                db.SaveChanges(); //В БД изменения не происходят, а состояние сущности выставляется Unchanged
+            }
+        }
+
+        static void Test5()
+        {
+            Author author = new Author
+            {
+                Id = 4,
+                FirstName = "Ray",
+                LastName = "Bradbury"
+            };
+            using(LibraryEntities db = new LibraryEntities())
+            {
+                db.Entry(author).State = System.Data.Entity.EntityState.Unchanged;
+                db.SaveChanges();
+            }
+        }
+
+        static void Test6()
+        {
+            using(LibraryEntities db = new LibraryEntities())
+            {
+                Author author = new Author { FirstName = "Ray", LastName = "Bradbury" };
+                db.Author.Add(author); //сущности присоединятся к контексту, а ее состояние есть Added
+                db.SaveChanges(); //сущность добавлена в БД, а ее состояние изменяется на Unchanged
+            }
+        }
+
+        static void Test7()
+        {
+            using(LibraryEntities db = new LibraryEntities())
+            {
+                Author author = new Author
+                {
+                    FirstName = "Ray",
+                    LastName = "Bradbury"
+                };
+                db.Entry(author).State = System.Data.Entity.EntityState.Added;
+                db.SaveChanges();
+            }
+        }
+
+        static void AddAuthor_2(Author author)
+        {
+            using (LibraryEntities db = new LibraryEntities())
+            {
+                db.Database.Log = MyLogger.EFLog;
+                Author a = db.Author.Where((x) => x.FirstName == author.FirstName && x.LastName == author.LastName).FirstOrDefault();
+                if (a == null)
+                {
+                    db.Author.Add(author);
+                    db.SaveChanges();
+                    Console.WriteLine("New author added: " + author.LastName);
+                }
+            }
+        }
+
 
         static void AddPublisher(Publisher publisher)
         {
@@ -117,7 +221,7 @@ namespace LibraryDbFirst
             AddBook(book);
         }
 
-        static void GetAllBooks()
+        static void GetAllBooks_Old()
         {
             using(LibraryEntities db = new LibraryEntities())
             {
@@ -126,6 +230,62 @@ namespace LibraryDbFirst
                 {
                     Console.WriteLine("Book: " + a.Title + " price: " + a.Price + " author: " + a.Author.FirstName + "    " + a.Author.LastName);
                 }
+            }
+        }
+
+        //eager loading
+        static void GetAllBooks_Old2()
+        {
+            using(LibraryEntities db = new LibraryEntities())
+            {
+                var books = db.Book.Include("Author").ToList<Book>();
+                foreach (var a in books)
+                {
+                    Console.WriteLine("Книга: " + a.Title + " цена: " + a.Price + " автор: " + a.Author.FirstName + "    " + a.Author.LastName);
+                }
+            }
+        }
+
+        static void GetAllBooks()
+        {
+            using(LibraryEntities db = new LibraryEntities())
+            {
+                db.Configuration.LazyLoadingEnabled = false;
+                var author = (from b in db.Author
+                              where (b.LastName.StartsWith("si"))
+                              select b).FirstOrDefault<Author>();
+                db.Entry(author).Collection("Book").Load();
+                foreach (Book book in author.Book)
+                {
+                    Console.WriteLine("Книга: " + book.Title + " цена: " + book.Price + " автор: " + book.Author.FirstName + "    " + book.Author.LastName);
+                }
+            }
+        }
+
+        //eager loading
+        static void GetAllBooks2()
+        {
+            using(LibraryEntities db = new LibraryEntities())
+            {
+                var books = (from s in db.Book.Include("Author")
+                             select s).ToList<Book>();
+                foreach (var a in books)
+                {
+                    Console.WriteLine("Книга: " + a.Title + " цена: " + a.Price + " автор: " + a.Author.FirstName + "    " + a.Author.LastName);
+                }
+            }
+        }
+
+        static void GetAuthors()
+        {
+            using(LibraryEntities db = new LibraryEntities())
+            {
+                db.Configuration.LazyLoadingEnabled = false;
+                var book = (from b in db.Book
+                            where (b.Title.StartsWith("w"))
+                            select b).FirstOrDefault<Book>();
+                db.Entry(book).Reference(a => a.Author).Load();
+                Console.WriteLine("Книга: " + book.Title + " цена: " + book.Price + " автор: " + book.Author.FirstName + "    " + book.Author.LastName);
             }
         }
 
@@ -254,7 +414,13 @@ namespace LibraryDbFirst
                 return au;
             }
         }
+    }
 
-  
+    public class MyLogger
+    {
+        public static void EFLog(string message)
+        {
+            Console.WriteLine($"Action performed: {0} ", message);
+        }
     }
 }

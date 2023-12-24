@@ -1,7 +1,7 @@
-﻿CREATE DATABASE Library;
+﻿CREATE DATABASE mylibrary;
 GO
 
-USE Library;
+USE mylibrary;
 GO
 
 CREATE TABLE Author
